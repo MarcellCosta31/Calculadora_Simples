@@ -1,21 +1,40 @@
-Esse projeto é uma calculadora simples desenvolvida em React Native.
+# 🧮 Calculadora em React Native
 
-📌 Descrição do Projeto:
-O aplicativo possui uma interface minimalista que permite ao usuário inserir dois valores numéricos e visualizar o resultado das quatro operações matemáticas básicas em tempo real: soma, subtração, multiplicação e divisão.
+Este foi um dos **primeiros projetos** que desenvolvi utilizando **React Native**.  
+A ideia é simples: digitar dois números e ver em tempo real os resultados das quatro operações básicas — **soma, subtração, multiplicação e divisão**.
 
-🔎 Principais características:
+---
 
-- Entrada de dados: dois campos (TextInput) configurados para aceitar apenas números decimais.
-- Cálculo automático: conforme o usuário digita os valores, os resultados são atualizados dinamicamente.
+## ✨ Funcionalidades
+- Inserir dois valores numéricos.
+- Cálculo automático em tempo real.
+- Exibição dos resultados para:
+  - Soma ➕  
+  - Subtração ➖  
+  - Multiplicação ✖️  
+  - Divisão ➗
+- Interface limpa e minimalista, ideal para treinar lógica.
 
-Operações implementadas:
+---
 
-- Soma (x + y)
-- Subtração (x - y)
-- Multiplicação (x * y)
-- Divisão (x / y)
+## 🛠️ Tecnologias utilizadas
+- [React Native](https://reactnative.dev/)  
+- [Expo](https://expo.dev/) (se rodar com Expo)  
+- Hooks do React (`useState`)  
 
-Interface simples e limpa: título centralizado, campos de entrada destacados e resultados exibidos em texto grande para fácil visualização.
+---
 
-🎯 Objetivo:
-Esse projeto tem caráter educacional, servindo como introdução ao uso de hooks (useState), manipulação de inputs numéricos e aplicação de estilos com StyleSheet no React Native.
+## 📸 Preview
+<p align="center">
+  <img src="https://github.com/seu-usuario/calculadora-rn/blob/master/prints/1.png" alt="Tela 1" width="30%">
+  <img src="https://github.com/seu-usuario/calculadora-rn/blob/master/prints/2.png" alt="Tela 2" width="30%">
+</p>
+
+## 🚀 Como rodar o projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/MarcellCosta31/Calculadora_Simples
+   cd Calculadora_Simples
+   npm install
+   expo start
